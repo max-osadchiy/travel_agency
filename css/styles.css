@@ -15,11 +15,14 @@ a {
   auto;
 }
 
+
 .logo {
-  background: url(logo.jpg);
-  width: 150px;
-  height: 100%;
+  background: url(zeppelin.png);
+  width: 110px;
+  height: 110px;
   float: left;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .header {
@@ -61,6 +64,7 @@ a {
   font-size: 30px;
   text-decoration: blink;
   color: aliceblue;
+  text-shadow: 1px 1px 2px black;
 
 }
 
@@ -68,10 +72,12 @@ a {
   font-family: Arial, serif;
   font-style: italic ;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 55px;
   text-decoration: blink;
   color: aliceblue;
   text-align: center;
+  margin: 5px;
+
 
 }
 
@@ -84,6 +90,7 @@ a {
   color: aliceblue;
   float: right;
   margin-right: 200px;
+  text-shadow: 1px 1px 2px black;
 }
 
 .text-phone2 {
@@ -115,6 +122,15 @@ a {
   float: right;
 }
 
+.row-gor {
+  height: 500px;
+  margin-bottom: 5px;
+  background-image: url(forest-3840x2160-003.jpg);
+  background-size: cover;
+  background-repeat:;
+  z-index: 50;
+}
+
 .main-banner-content {
   font-family: Arial, serif;
   font-style: italic ;
@@ -124,6 +140,23 @@ a {
   color: white;
   margin-bottom: 100px;
   margin: 0px;
+  text-align: center;
+  background: rgba(255,255,255,0.0);
+  shadow
+
+}
+
+.main-banner-content-text {
+  font-family: Arial, serif;
+  font-style: italic ;
+  font-weight: bolder;
+  font-size: 65px;
+  text-decoration: blink;
+  color: white;
+  background: rgba(255,255,255,0.7);
+  text-shadow: 1px 1px 2px black;
+
+
 }
 
 .main-banner-text {
@@ -148,28 +181,87 @@ a {
 
 .main-banner-button {
   text-align: center;
-  margin: 80px;
+  margin: 0px;
+  margin-top: 50px;
+  padding: 25px;
 }
 
 .row-main-banner {
-    background: url(../img/plyazh-gonolulu-v-ssha-011.jpg);
+    background: url(../img/less.jpg);
     background-size: auto 800px;
     height: 800px;
     margin-bottom: 3px;
 }
 
 .row {
-    background-color:orange;
+    background-color:green;
     height: 500px;
     margin-bottom: 5px;
 }
 
-.row-photo-2 {
-    background: url(../img/Nature___Beach_The_beach_in_Singapore_071191_.jpg);
-    background-size: auto 900px;
-    background-repeat: ;
-    height: 900px;
+.row-sell {
+    text-align: center;
+    font-family: Arial, serif;
+    font-style: italic ;
+    font-weight: bolder;
+    font-size: 50px;
+    text-decoration: blink;
+    color: aliceblue;
+
+
+}
+
+.row-photo-sell {
+    width: 100px;
+    margin-top: 15px;
+
+}
+
+.text-sell-down {
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+    background: orange;
+}
+
+.text-sell-up {
+    text-shadow: 1px 1px 2px black;
+    margin: 5px;
+
+}
+
+.row-photo-reg {
+    background: url(../img/forest-3840x2160-006.jpg);
+    background-size: auto 800px;
+    height: 700px;
     margin-bottom: 5px;
+    padding: 50px 0;
+}
+
+.row-reg {
+    text-align: center;
+
+}
+
+.text-reg {
+  font-family: Arial, serif;
+  font-style: italic ;
+  font-weight: bolder;
+  font-size: 50px;
+  text-decoration: blink;
+  color: aliceblue;
+  background: rgba(0,0,0,0.8);
+
+
+
+}
+
+.buttom-reg {
+  margin-top: 70px;
+    width: 395px;
+    height: 83px;
+    margin: auto;
+    padding: 25px;
+
 }
 
 .row-photo-3 {
@@ -183,4 +275,62 @@ a {
 .footer {
     background-color: blue;
     height: 150px;
+}
+
+
+
+
+
+
+.banner {
+  display: inline-block;
+  padding: 50px 0;
+  text-align: center;
+  font-family: Arial, serif;
+  font-style: italic ;
+  font-weight: bolder;
+  font-size: 40px;
+  text-decoration: blink;
+  color: aliceblue;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+
+
+}
+
+
+.banner .left {
+
+  width: 33.33%;
+  float: left;
+}
+
+
+
+.banner .center {
+  width: 33.33%;
+  float: left;
+}
+
+.banner .right {
+  width: 33.33%;
+  float: left;
+}
+
+.left {
+  font-size: 35px;
+
+}
+
+.center {
+  font-size: 35px;
+
+
+}
+
+
+.right {
+    font-size: 35px;
+
+
 }
