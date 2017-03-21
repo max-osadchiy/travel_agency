@@ -36,25 +36,25 @@ a {
 }
 
 .text-main-banner-left {
-    font-family: Arial, serif;
-    font-style: italic;
-    font-weight: bolder;
-    width: 400px;
-    font-size: 30px;
-    text-decoration: blink;
-    color: aliceblue;
-    margin-left: 70px;
+  font-family: Arial, serif;
+  font-style: italic;
+  font-weight: bolder;
+  width: 400px;
+  font-size: 30px;
+  text-decoration: blink;
+  color: aliceblue;
+  margin-left: 70px;
 }
 
 .text-main-banner-center {
-    font-family: Arial, serif;
-    font-style: italic ;
-    font-weight: bolder;
-    font-size: 30px;
-    text-decoration: blink;
-    color: aliceblue;
-    text-align: center;
-    width: 50%;
+  font-family: Arial, serif;
+  font-style: italic ;
+  font-weight: bolder;
+  font-size: 30px;
+  text-decoration: blink;
+  color: aliceblue;
+  text-align: center;
+  width: 50%;
 }
 
 .text {
@@ -65,7 +65,6 @@ a {
   text-decoration: blink;
   color: aliceblue;
   text-shadow: 1px 1px 2px black;
-
 }
 
 .text-main-banner-center-up {
@@ -77,8 +76,6 @@ a {
   color: aliceblue;
   text-align: center;
   margin: 5px;
-
-
 }
 
 .text-logo {
@@ -143,7 +140,6 @@ a {
   text-align: center;
   background: rgba(255,255,255,0.0);
   shadow
-
 }
 
 .main-banner-content-text {
@@ -155,8 +151,6 @@ a {
   color: white;
   background: rgba(255,255,255,0.7);
   text-shadow: 1px 1px 2px black;
-
-
 }
 
 .main-banner-text {
@@ -175,8 +169,8 @@ a {
 }
 
 .shadow {
-    border-radius: 3px;
-    box-shadow: 2px 2px 10px -2px black;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px -2px black;
 }
 
 .main-banner-button {
@@ -187,59 +181,54 @@ a {
 }
 
 .row-main-banner {
-    background: url(../img/less.jpg);
-    background-size: auto 800px;
-    height: 800px;
-    margin-bottom: 3px;
+  background: url(../img/less.jpg);
+  background-size: auto 800px;
+  height: 800px;
+  margin-bottom: 3px;
 }
 
 .row {
-    background-color:green;
-    height: 500px;
-    margin-bottom: 5px;
+  background-color:green;
+  height: 500px;
+  margin-bottom: 5px;
 }
 
 .row-sell {
-    text-align: center;
-    font-family: Arial, serif;
-    font-style: italic ;
-    font-weight: bolder;
-    font-size: 50px;
-    text-decoration: blink;
-    color: aliceblue;
-
-
+  text-align: center;
+  font-family: Arial, serif;
+  font-style: italic ;
+  font-weight: bolder;
+  font-size: 50px;
+  text-decoration: blink;
+  color: aliceblue;
 }
 
 .row-photo-sell {
-    width: 100px;
-    margin-top: 15px;
-
+  width: 100px;
+  margin-top: 15px;
 }
 
 .text-sell-down {
-    font-size: 40px;
-    text-shadow: 1px 1px 2px black;
-    background: orange;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black;
+  background: orange;
 }
 
 .text-sell-up {
-    text-shadow: 1px 1px 2px black;
-    margin: 5px;
-
+  text-shadow: 1px 1px 2px black;
+  margin: 5px;
 }
 
 .row-photo-reg {
-    background: url(../img/forest-3840x2160-006.jpg);
-    background-size: auto 800px;
-    height: 700px;
-    margin-bottom: 5px;
-    padding: 50px 0;
+  background: url(../img/forest-3840x2160-006.jpg);
+  background-size: auto 800px;
+  height: 700px;
+  margin-bottom: 5px;
+  padding: 50px 0;
 }
 
 .row-reg {
-    text-align: center;
-
+  text-align: center;
 }
 
 .text-reg {
@@ -250,37 +239,28 @@ a {
   text-decoration: blink;
   color: aliceblue;
   background: rgba(0,0,0,0.8);
-
-
-
 }
 
 .buttom-reg {
   margin-top: 70px;
-    width: 395px;
-    height: 83px;
-    margin: auto;
-    padding: 25px;
-
+  width: 395px;
+  height: 83px;
+  margin: auto;
+  padding: 25px;
 }
 
 .row-photo-3 {
-    background: url(../img/1097610010.jpg);
-    background-size: auto 800px;
-    background-repeat: ;
-    height: 800px;
-    margin-bottom: 5px;
+  background: url(../img/1097610010.jpg);
+  background-size: auto 800px;
+  background-repeat: ;
+  height: 800px;
+  margin-bottom: 5px;
 }
 
 .footer {
-    background-color: blue;
-    height: 150px;
+  background-color: blue;
+  height: 150px;
 }
-
-
-
-
-
 
 .banner {
   display: inline-block;
@@ -294,18 +274,12 @@ a {
   color: aliceblue;
   width: 100%;
   background: rgba(0,0,0,0.8);
-
-
 }
 
-
 .banner .left {
-
   width: 33.33%;
   float: left;
 }
-
-
 
 .banner .center {
   width: 33.33%;
@@ -319,18 +293,13 @@ a {
 
 .left {
   font-size: 35px;
-
 }
 
 .center {
   font-size: 35px;
-
-
 }
 
 
 .right {
-    font-size: 35px;
-
-
+  font-size: 35px;
 }
