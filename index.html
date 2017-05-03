@@ -9,9 +9,6 @@
     <div class='wrapper'>
 
       <div class='header-right'>
-        <div class='online'>
-          <a class='main-banner-text' href="#">Онлайн Чат!</a>
-        </div>
         <div class='text-phone'>
           <p class='text'>
             +000 000 000<br />
@@ -38,8 +35,9 @@
       <div class='main-banner-content'>
         <br />
         <p class='shadow main-banner-content-text'>
-          Пользуйтесь<br />
-          нашими услугами!
+          Планируете отпуск?</p>
+          <p class='shadow main-banner-content-text-two'>
+          Доверьте эту задачу профессионалам!
         </p>
         <br />
         <a class='main-banner-button shadow text' href="#onreg">Подобрать тур!</a>
@@ -72,18 +70,27 @@
     <div class='row-photo-reg'>
       <div class='wrapper'>
         <div class='row-reg'>
-          <p class='text-reg'>
+          <p class='text-sotr shadow'>
             <a name="onreg">
-              Вы можете зарегистрироваться! И получить скидку на первую путевку!
+              Сотрудничаем с турагенствами :
             </a></p>
           </div>
-          <div class='buttom-reg'>
-            <section class="color-1">
-              <p><button href="#reg" class="text-touch btn btn-1 btn-1d">Зарегистрироваться!</button></p>
-            </section>
+          <div class='banner-sotr'>
+            <div class='left-sotr'>
+              <img src="img/photo.jpg" width="150px" height="150px" />
+              <br><br><a class='team-button-sotr shadow text' href="#">Join Up!</a>
+            </div>
+            <div class='center-sotr'>
+              <img src="img/logotitl-76afc6a2b237398b186a44033051f53d7cc694d9e3c39a0d2878bea76aa17a72.png" width="150px" height="150px" />
+              <br><br><a class='team-button-sotr shadow text' href="#">CAM travel</a>
+            </div>
+            <div class='right-sotr'>
+              <img src="img/logotip.png" width="150px" height="150px" />
+              <br><br><a class='team-button-sotr shadow text' href="#">Top travel</a>
+            </div>
+          </div>
           </div>
         </div>
-      </div>
 
       <div class='row'>
         <div class='wrapper'>
@@ -97,16 +104,10 @@
             </p>
 
             <p class='text-sell-down shadow'>
-              Если вы уже ездили куда-то через наше тур агенство,то у вас есть скидка 30% на любой тур!
+              Если уже ездили через наше тур агенство,то у вас есть скидка 30% на любой тур!
 
             </p>
-
-            <p class='text-sell-down shadow'>
-              Вы сегодня можете поучавствовать в конкурсе! Приз - Путевка на двоих во Францию!
-              Искать конкурс в нашей основной группе.
-            </p>
-
-
+            <img class='sell-photo' src="img/84249672.jpg" height="40%" width="100%"/>
           </div>
         </div>
       </div>
@@ -155,11 +156,12 @@
 
       <div class='row-reg-data-down'>
         <div class='wrapper'>
+          <img src="img/shri-lanka-0052.jpg"  height="45%" width="100%"/>
           <div class='reg-data-all'>
             <h2 class="text-reg-data">
               <a name="reg">Регистрация</a>
             </h2>
-
+            <div class='registration-block'>
               <form class="registration">
 
                 <p>
@@ -171,9 +173,13 @@
                 <p>
                   <input class='register-right' type='email' placeholder="Введите Email"/>
                 </p>
+              </div>
                 <div>
-                  <a class='register-now-up text shadow' href="#" />Зарегистрироваться</a>
+                  <p class='register-now-up'>
+                  <a class='register-now-up blue-click text shadow' href="#" />Зарегистрироваться</a>
+                </p>
                 </div>
+              </form>
               </div>
             </div>
           </div>
@@ -224,51 +230,6 @@
             </div>
           </div>
         </footer>
-        <div>
-        <p>
-        <button class="btn btn-1 btn-1d">Кнопка</button>
-      </p>
-    </div>
-
-    <div class='buttom-reg'>
-    <p><button href="#reg" class="text-touch btn btn-1 btn-1d">Зарегистрироваться!</button></p>
-  </div>
-
-</div><!-- /container -->
-<script src="js/classie.js"></script>
-<script>
-var buttons7Click = Array.prototype.slice.call( document.querySelectorAll( '#btn-click button' ) ),
-buttons9Click = Array.prototype.slice.call( document.querySelectorAll( 'button.btn-8g' ) ),
-totalButtons7Click = buttons7Click.length,
-totalButtons9Click = buttons9Click.length;
-
-buttons7Click.forEach( function( el, i ) { el.addEventListener( 'click', activate, false ); } );
-buttons9Click.forEach( function( el, i ) { el.addEventListener( 'click', activate, false ); } );
-
-function activate() {
-  var self = this, activatedClass = 'btn-activated';
-
-  if( classie.has( this, 'btn-7h' ) ) {
-    // if it is the first of the two btn-7h then activatedClass = 'btn-error';
-    // if it is the second then activatedClass = 'btn-success'
-    activatedClass = buttons7Click.indexOf( this ) === totalButtons7Click-2 ? 'btn-error' : 'btn-success';
-  }
-  else if( classie.has( this, 'btn-8g' ) ) {
-    // if it is the first of the two btn-8g then activatedClass = 'btn-success3d';
-    // if it is the second then activatedClass = 'btn-error3d'
-    activatedClass = buttons9Click.indexOf( this ) === totalButtons9Click-2 ? 'btn-success3d' : 'btn-error3d';
-  }
-
-  if( !classie.has( this, activatedClass ) ) {
-    classie.add( this, activatedClass );
-    setTimeout( function() { classie.remove( self, activatedClass ) }, 1000 );
-  }
-}
-
-document.querySelector( '.btn-7i' ).addEventListener( 'click', function() {
-  classie.add( document.querySelector( '#trash-effect' ), 'trash-effect-active' );
-}, false );
-</script>
 
 </body>
 </html>

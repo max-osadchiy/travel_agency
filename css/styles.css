@@ -1,5 +1,5 @@
 body {
-  -webkit-user-select: none;
+
   margin: 0px;
 }
 
@@ -89,9 +89,11 @@ input {
   font-size: 30px;
   text-decoration: blink;
   color: aliceblue;
-  float: right;
+  float: left;
   margin-right: 200px;
   text-shadow: 1px 1px 2px black;
+  margin-top: 35px;
+  margin-left: 15px;
 }
 
 .text-phone2 {
@@ -111,6 +113,7 @@ input {
 .header-right {
   background-color: orange;
   float: right;
+  margin-top: 35px;
 }
 
 .online {
@@ -158,6 +161,17 @@ input {
   text-shadow: 1px 1px 2px black;
 }
 
+.main-banner-content-text-two {
+  font-family: Arial, serif;
+  font-style: italic ;
+  font-weight: bolder;
+  font-size: 45px;
+  text-decoration: blink;
+  color: white;
+  background: rgba(255,255,255,0.3);
+  text-shadow: 1px 1px 2px black;
+}
+
 .main-banner-text {
   background: Green;
   width: 260px;
@@ -184,6 +198,7 @@ input {
   margin-top: 50px;
   padding: 25px;
   background: green;
+  border-radius: 5px;
 }
 
 .row-main-banner {
@@ -194,7 +209,7 @@ input {
 }
 
 .row {
-  background: url(../img/844738783.jpg);
+  background: url(../img/f200e6aba302aa806a62ef14d56e9cae_73424.jpg);
   height: 850px;
   margin-bottom: 5px;
 }
@@ -223,12 +238,18 @@ input {
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+.sell-photo {
+  margin-top: 30px;
+
+
+}
 
 .text-sell-down {
-  font-size: 40px;
+  font-size: 20px;
   text-shadow: 1px 1px 2px black;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.5);
   margin-top: 50px;
+  padding: 20px;
 }
 
 .text-sell-up {
@@ -239,7 +260,7 @@ input {
 .row-photo-reg {
   background: url(../img/forest-3840x2160-006.jpg);
   background-size: auto 800px;
-  height: 700px;
+  height: 500px;
   margin-bottom: 5px;
   padding: 50px 0;
 }
@@ -248,7 +269,7 @@ input {
   text-align: center;
 }
 
-.text-reg {
+.sotr-up {
   font-family: Arial, serif;
   font-style: italic ;
   font-weight: bolder;
@@ -296,12 +317,14 @@ input {
 
 .reg-data-all {
   background: rgba(0,0,0,0.8);
+  margin-top: 12px;
+  padding: 24px;
 }
 
 .row-reg-data-down {
-  background: url(../img/74092096.jpg);
+  background: url(../img/f200e6aba302aa806a62ef14d56e9cae_73424.jpg);
   height: 700px ;
-  padding: 20px;
+  padding: 25px;
 }
 
 .text-reg-data {
@@ -318,6 +341,48 @@ input {
 
 
 }
+
+.text-sotr {
+  font-family: Arial, serif;
+  font-style: italic ;
+  font-weight: bolder;
+  font-size: 50px;
+  text-decoration: blink;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black;
+    background: rgba(0,0,0,0.8);
+}
+
+.banner-sotr {
+  display: inline-block;
+  padding: 50px 0;
+  text-align: center;
+  font-family: Arial, serif;
+  font-style: normal ;
+  font-weight: normal;
+  font-size: 35px;
+  text-decoration: blink;
+  color: aliceblue;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+}
+
+.banner-sotr .left-sotr, .banner-sotr .right-sotr, .banner-sotr .center-sotr {
+  width: 33.33%;
+  float: left;
+  margin-top: 50px;
+}
+
+.left-sotr, .right-sotr, .center-sotr  {
+  margin-top: 20px;
+
+}
+
+.team-button-sotr {
+  padding: 10px 40px;
+  background: green;
+}
+
 
 .row-team-text {
   font-family: Arial, serif;
@@ -382,17 +447,21 @@ li.team-name {
 }
 
 .register-now-up {
-  text-align: center;
-  margin: 0px;
-  margin-top: 50px;
   padding: 25px;
-  background: green;
-  margin-left: 385px;
+  border-radius: 55px;
+  text-align: center;
+  margin-top: 192px;
+
+}
+
+.blue-click {
+  background: blue;
+
 }
 
 .register-left {
   float: left;
-  margin-left: 60px;
+  margin-left: 42px;
 }
 
 .register-center {
